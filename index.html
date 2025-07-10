@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome | Instaorix</title>
+<meta name="description" content="Loading Instaorix...">
+<link rel="canonical" href="https://instaorix.shop">
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      background: #ffffff;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Poppins', sans-serif;
+      overflow: hidden;
+    }
+
+    .intro-container {
+      text-align: center;
+      opacity: 0;
+      transform: scale(0.95);
+      animation: fadeIn 1.5s ease-out forwards;
+    }
+
+    .intro-container h1 {
+      font-size: 2.2rem;
+      margin: 0.5rem 0;
+      color: #2a4bdb;
+    }
+
+    .highlight {
+      background: linear-gradient(90deg, #6a11cb, #2575fc);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 700;
+    }
+
+    .intro-container p {
+      font-size: 1rem;
+      color: #555;
+      margin: 0;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    @keyframes fadeOut {
+      to {
+        opacity: 0;
+        transform: scale(1.05);
+      }
+    }
+
+    .fadeout {
+      animation: fadeOut 0.8s ease-out forwards;
+    }
+
+    /* Responsive typography */
+    @media (max-width: 600px) {
+      .intro-container h1 {
+        font-size: 1.6rem;
+      }
+
+      .intro-container p {
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="intro-container" id="intro">
+    <h1>Welcome to <span class="highlight">Instaorix</span></h1>
+    <p>Formerly Adv Boster – Now Reimagined</p>
+  </div>
+
+  <script>
+    // Fade out before redirect for seamless transition
+    setTimeout(() => {
+      document.getElementById("intro").classList.add("fadeout");
+    }, 4200); // fade out after 4.2s
+
+    // Redirect to main.html after 5 seconds
+    setTimeout(() => {
+      window.location.href = "main.html";
+    }, 5000);
+  </script>
+
+</body>
+</html>

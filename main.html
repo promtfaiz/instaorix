@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Instaorix - Boost Your Social Media Growth | Instagram, YouTube, Spotify</title>
+<meta name="description" content="Buy real Instagram followers, likes, and YouTube views instantly with Instaorix. Trusted social media growth platform since 2021.">
+<meta name="keywords" content="buy Instagram followers, buy YouTube views, buy Spotify streams, social media marketing, Instaorix">
+
+<!-- Canonical -->
+<link rel="canonical" href="https://instaorix.shop">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Instaorix - Boost Your Social Media Growth" />
+<meta property="og:description" content="Get real followers, likes, and views instantly. Trusted by creators and businesses worldwide." />
+<meta property="og:image" content="https://https://instaorix.shop/images/logo.png" />
+<meta property="og:url" content="https://instaorix.shop" />
+<meta property="og:type" content="website" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Instaorix - Boost Your Social Media Growth" />
+<meta name="twitter:description" content="Real Instagram followers, YouTube views, and Spotify streams. Trusted platform since 2021." />
+<meta name="twitter:image" content="https://yourdomain.com/assets/logo.png" />
+
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <nav class="nav-container">
+      <h1 class="logo-gradient">Instaorix</h1>
+      <div class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="/pages/auth/login.html" class="login-btn">Login</a>
+      </div>
+      <button id="mobile-menu-button" class="mobile-icon">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+    <div id="mobile-menu" class="mobile-menu">
+      <a href="#services">Services</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#testimonials">Reviews</a>
+      <a href="/pages/auth/login.html" class="login-btn">Login</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>
+        Grow Your <span class="text-gradient">Social Media</span> Instantly
+      </h1>
+      <p>
+        High-quality followers, likes, and views for Instagram, YouTube, Spotify, and more. Trusted by 1000+ users.
+      </p>
+      <div class="hero-buttons">
+        <a href="/pages/auth/login.html" class="btn-primary">Order Now</a>
+        <a href="#how-it-works" class="btn-outline">Services</a>
+        <button id="getDemoBtn" class="btn-primary1">Take Demo</button>
+
+
+      </div>
+    </div>
+  </section>
+  
+ <!-- Feature Coming Soon Modal -->
+<div id="featureModal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+    <h2>🚀 Feature Coming Soon!</h2>
+    <p>We're working hard to launch this feature soon. Stay tuned! Please Order From Instagram @instaorix (Adv_Boster) </p>
+  </div>
+</div>
+
+<!-- Service Menu Modal -->
+<div id="menuModal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+    <h2>📋 Our Service Menu</h2>
+    <div class="menu-section">
+      <h3>✅ Regular Services</h3>
+      <ul>
+        <li>1️⃣ 1k Likes – ₹30</li>
+        <li>2️⃣ 1k Views – ₹10</li>
+        <li>3️⃣ 1k Followers – ₹250</li>
+        <li>4️⃣ 1k Indian Likes – ₹99</li>
+        <li>5️⃣ 1k Story Views – ₹29</li>
+      </ul>
+
+      <h3>🔥 Offers</h3>
+      <ul>
+        <li>1️⃣ 10k Views – ₹80</li>
+        <li>2️⃣ 50k Views + 2.5k Likes – ₹249</li>
+        <li>3️⃣ 5k Likes – ₹111</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <div class="section-header">
+      <h2>Our Services</h2>
+    </div>
+    <div class="service-cards">
+      <div class="card instagram">
+        <div class="icon"><i class="fab fa-instagram"></i></div>
+        <h3>Instagram Growth</h3>
+        <p>Real followers, likes, views, and reels engagement. Grow organically with guaranteed speed.</p>
+      </div>
+      <div class="card youtube">
+        <div class="icon"><i class="fab fa-youtube"></i></div>
+        <h3>YouTube Promotion</h3>
+        <p>Boost video views, subscribers, and SEO. 100% safe YouTube growth strategies.</p>
+      </div>
+      <div class="card spotify">
+        <div class="icon"><i class="fab fa-spotify"></i></div>
+        <h3>Spotify Streams</h3>
+        <p>Get music plays, saves, and playlist boosts. Perfect for artists & influencers.</p>
+      </div>
+    </div>
+  </section>
+
+<!-- Demo Modal -->
+<div id="demoModal" class="insta-modal hidden">
+  <div class="insta-modal-content">
+    <span class="insta-close-btn" onclick="closeDemoModal()">&times;</span>
+    <h2>Get Demo Service</h2>
+    <input type="text" id="demoName" placeholder="Your Name" />
+    <input type="tel" id="demoNumber" placeholder="Your Phone Number" />
+    <input type="text" id="demoInsta" placeholder="Your Instagram ID" />
+    <button onclick="submitDemo()" class="btn-primary">Proceed</button>
+  </div>
+</div>
+
+<!-- Success Modal -->
+<div id="successModal" class="insta-modal hidden">
+  <div class="insta-modal-content">
+    <h2>✅ Request Sent For Demo</h2>
+    <p>Our team will connect with you shortly.</p>
+  </div>
+</div>
+
+
+ 
+  <!-- Multiple Floating Icons -->
+<div class="floating-background">
+  <i class="fas fa-heart"></i>
+  <i class="fas fa-user-plus"></i>
+  <i class="fas fa-eye"></i>
+  <i class="fas fa-heart"></i>
+  <i class="fas fa-user-plus"></i>
+  <i class="fas fa-eye"></i>
+</div>
+
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-about">
+        <h3>Instaorix</h3>
+        <p>Formerly Adv Booster — Trusted since 2021</p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">YouTube</a></li>
+            <li><a href="#">Spotify</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Terms</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-text">
+      Made with <span class="heart" style="color: red;">♥</span> by 
+      <a href="https://bananewala.in.net" target="_blank" rel="noopener" 
+   style="display: inline-block;
+          padding: 8px 16px;  
+          color: #000;
+          font-weight: 600;   
+          font-size: 14px;    
+          text-decoration: none;
+          background: linear-gradient(135deg, #fff 0%, #f8f8f8 100%);
+          border-radius: 6px;  
+          box-shadow: 0 2px 10px rgba(255, 215, 0, 0.3),
+                      0 0 0 1px rgba(255, 215, 0, 0.2);
+          transition: all 0.3s ease;
+          position: relative;
+          overflow: hidden;
+          text-shadow: 0 1px 1px rgba(0,0,0,0.05);
+          border: none;
+          z-index: 1;
+          line-height: 1.2; 
+          vertical-align: middle;">
+   
+   <span style="position: relative; z-index: 2;">
+      BananeWala
+   </span>
+   
+   <span style="position: absolute;
+                top: 0;
+                left: -100%;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(90deg, 
+                           transparent, 
+                           rgba(255, 215, 0, 0.15), 
+                           transparent);
+                transition: all 0.5s ease;
+                z-index: 1;">
+   </span>
+</a>
+    </p>
+    </div>
+  </footer>
+  
+
+
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore.js"></script>
+  <script src="main.js"></script>
+
+  <script>
+    // Get modals
+  const featureModal = document.getElementById("featureModal");
+  const menuModal = document.getElementById("menuModal");
+
+  // Close buttons
+  const closeBtns = document.querySelectorAll(".close-btn");
+
+  // Show Feature Coming Soon for Order Now and Login
+  document.querySelectorAll('a.btn-primary, a.login-btn').forEach(btn => {
+    btn.addEventListener('click', function(event) {
+      event.preventDefault();
+      featureModal.style.display = "block";
+    });
+  });
+
+  // Show Service Menu for How It Works
+  const howBtn = document.querySelector('a.btn-outline');
+  if(howBtn){
+    howBtn.addEventListener('click', function(event) {
+      event.preventDefault();
+      menuModal.style.display = "block";
+    });
+  }
+
+  // Close modals when clicking on X button
+  closeBtns.forEach(btn => {
+    btn.onclick = function() {
+      btn.parentElement.parentElement.style.display = "none";
+    }
+  });
+
+  // Close modal when clicking outside the modal-content
+  window.onclick = function(event) {
+    if (event.target == featureModal) {
+      featureModal.style.display = "none";
+    }
+    if (event.target == menuModal) {
+      menuModal.style.display = "none";
+    }
+  }
+ const icons = ["fa-heart", "fa-user-plus", "fa-eye"];
+  let current = 0;
+  const iconElement = document.querySelector(".floating-icon-loop i");
+
+  setInterval(() => {
+    current = (current + 1) % icons.length;
+    iconElement.className = "fas " + icons[current];
+  }, 2000); // Switch every 2 seconds
+
+  document.addEventListener('DOMContentLoaded', () => {
+  const demoBtn = document.getElementById('getDemoBtn');
+  const demoModal = document.getElementById('demoModal');
+  const successModal = document.getElementById('successModal');
+  const closeBtns = document.querySelectorAll('.close-btn');
+
+  demoBtn.addEventListener('click', () => {
+    demoModal.classList.remove('hidden');
+    demoModal.style.display = 'block';
+  });
+
+  closeBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      btn.closest('.modal').style.display = 'none';
+    });
+  });
+
+  window.addEventListener('click', (event) => {
+    if (event.target == demoModal) {
+      demoModal.style.display = 'none';
+    }
+    if (event.target == successModal) {
+      successModal.style.display = 'none';
+    }
+  });
+});
+
+// Submit demo function
+function submitDemo() {
+  const name = document.getElementById('demoName').value.trim();
+  const number = document.getElementById('demoNumber').value.trim();
+  const insta = document.getElementById('demoInsta').value.trim();
+
+  if (!name || !number || !insta) {
+    alert("Please fill all fields.");
+    return;
+  }
+
+  // Formspree example (replace with your real Form ID)
+  fetch("https://formspree.io/f/your_form_id", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ name, number, insta })
+  })
+  .then(response => {
+    if (response.ok) {
+      document.getElementById('demoModal').style.display = 'none';
+      document.getElementById('successModal').classList.remove('hidden');
+      document.getElementById('successModal').style.display = 'block';
+      setTimeout(() => {
+        document.getElementById('successModal').style.display = 'none';
+      }, 4000);
+    } else {
+      alert("Failed to send. Try again.");
+    }
+  })
+  .catch(error => {
+    console.error("Error:", error);
+    alert("Error submitting form.");
+  });
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  const demoBtn = document.getElementById('getDemoBtn');
+  const demoModal = document.getElementById('demoModal');
+  const successModal = document.getElementById('successModal');
+
+  demoBtn.addEventListener('click', () => {
+    demoModal.classList.remove('hidden');
+    demoModal.style.display = 'flex';
+  });
+
+  window.addEventListener('click', (event) => {
+    if (event.target === demoModal) {
+      closeDemoModal();
+    }
+    if (event.target === successModal) {
+      successModal.style.display = 'none';
+    }
+  });
+});
+
+function closeDemoModal() {
+  const demoModal = document.getElementById('demoModal');
+  demoModal.style.display = 'none';
+}
+
+// Submit demo function
+function submitDemo() {
+  const name = document.getElementById('demoName').value.trim();
+  const number = document.getElementById('demoNumber').value.trim();
+  const insta = document.getElementById('demoInsta').value.trim();
+
+  if (!name || !number || !insta) {
+    alert("Please fill all fields.");
+    return;
+  }
+
+  // Formspree example (replace with your real Form ID)
+  fetch("https://formspree.io/f/mnnvedwz", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ name, number, insta })
+  })
+  .then(response => {
+    if (response.ok) {
+      closeDemoModal();
+      const successModal = document.getElementById('successModal');
+      successModal.classList.remove('hidden');
+      successModal.style.display = 'flex';
+      setTimeout(() => {
+        successModal.style.display = 'none';
+      }, 4000);
+    } else {
+      alert("Failed to send. Try again.");
+    }
+  })
+  .catch(error => {
+    console.error("Error:", error);
+    alert("Error submitting form.");
+  });
+}
+
+
+</script>
+
+</body>
+</html>
